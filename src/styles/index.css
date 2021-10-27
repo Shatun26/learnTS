@@ -1,0 +1,76 @@
+.app {
+  background-color: #ff573f;
+  height: 100vh;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .navContainer {
+  margin-top: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .navContainer input {
+  margin-bottom: 1vw;
+  color: black;
+}
+
+.app .taskList {
+  margin-top: 2vw;
+  border-top: 1px solid white;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1vw;
+}
+
+.app .task {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.5vw;
+  padding: 0.3vw 2vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.app .task h1,
+.app .task h2 {
+  font-size: 1vw;
+}
+
+.app .task button {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 0.3vw 2vw;
+}
+/*# sourceMappingURL=index.css.map */
